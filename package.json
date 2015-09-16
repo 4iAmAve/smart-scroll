@@ -1,54 +1,66 @@
 {
-    "name": "lea",
-    "version": "0.0.10",
-    "description": "Application to support lea build box.",
-    "main": "index.js",
-    "scripts": {
-        "test": "grunt test"
-    },
-    "author": "Ave <me@aves.site> & Robert Klank <robert.klank@gmx.de>",
-    "license": "MIT",
-    "dependencies": {
-        "bower": "*",
-        "grunt": "^0.4.5",
-        "grunt-cli": "*",
-        "grunt-contrib-jade": "*",
-        "grunt-contrib-less": "*",
-        "grunt-contrib-copy": "*",
-        "grunt-contrib-uglify": "*",
-        "grunt-contrib-concat": "*",
-        "grunt-contrib-watch": "*",
-        "grunt-contrib-jshint": "*",
-        "grunt-contrib-compress": "*",
-        "grunt-contrib-clean": "*",
-        "grunt-concurrent": "^0.5.0",
-        "grunt-file-regex-rename": "0.1.0",
-        "grunt-mkdir": "*",
-        "grunt-newer": "^0.7.0",
-        "grunt-shell": "^0.7.0",
-        "grunt-svgmin": "^0.4.0",
-        "load-grunt-tasks": "^0.5.0",
-        "grunt-jade-php": "*",
-        "time-grunt": "^0.3.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": ""
-    },
-    "project": {
-        "directories": {
-            "bin": "bin/",
-            "src": "src/",
-            "vendor": "vendor/",
-            "test": "test/",
-            "build": "build/",
-            "build-tasks": "build/tasks"
-        }
-    },
-    "remote": {
-        "host": "leacms",
-        "user": "build",
-        "repopath": "~/leacms"
-    },
-    "devDependencies": {}
+  "name": "smart-scroll.js",
+  "version": "0.0.1",
+  "description": "Tiny vanilla based javascript plugin to display large data sets and scroll easily",
+  "main": "smart-scroll.js",
+  "style": "smart-scroll.css",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thefirstave/smart-scroll.git"
+  },
+  "keywords": [
+    "large",
+    "vanillajs",
+    "table",
+    "grid",
+    "list",
+    "scroll",
+    "smooth"
+  ],
+  "author": "Ave (@thefirstave)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefirstave/smart-scroll/issues"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-base64": "~0.1.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jade": "~0.8.0",
+    "grunt-contrib-jasmine": "~0.5.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-less": "~0.6.4",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jsonlint": "~1.0.0",
+    "grunt-karma": "~0.6.2",
+    "grunt-lodash": "~0.2.1",
+    "grunt-phplint": "0.0.5",
+    "grunt-phpunit": "~0.3.0",
+    "grunt-shell": "~0.5.0",
+    "grunt-shell-spawn": "~0.3.0",
+    "grunt-svgmin": "^0.4.0",
+    "grunt-todo": "~0.2.0",
+    "hg": "0.0.5",
+    "karma": "~0.10.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-coverage": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-ie-launcher": "~0.1.1",
+    "karma-jasmine": "~0.1.3",
+    "karma-junit-reporter": "~0.1.0",
+    "karma-opera-launcher": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma-requirejs": "~0.2.0",
+    "karma-script-launcher": "~0.1.0",
+    "lodash": "~2.4.1",
+    "lodash-cli": "~1.3.1",
+    "node-trello": "~0.1.4",
+    "nodemailer": "^0.7.0"
+  },
 }
